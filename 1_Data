@@ -1,0 +1,12 @@
+📂 Dataset Details
+
+
+1. 📁 VCoR Dataset (Vehicle Color Recognition)
+- Source: https://www.kaggle.com/datasets/landrykezebou/vcor-vehicle-color-recognition-dataset
+- Contains car images categorized into different color folders (e.g., red, blue, white, etc.)
+- Used to train the color classification model.
+
+2. 📁 MS COCO Dataset (Optional - for person detection)
+- Source: https://www.kaggle.com/datasets/rtatman/ms-coco
+- Contains images with people and vehicle annotations.
+- Used for additional testing of person detection (YOLO model was trained on this dataset).
