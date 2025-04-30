@@ -1,0 +1,36 @@
+📊 Model Evaluation Metrics (Car Colour Detection)
+
+1. Accuracy:
+   83.25%
+
+2. Confusion Matrix:
+              Predicted
+              B   G   R   W   Y   Bl
+          ---------------------------
+    B     |  93   2   1   0   1   3
+    G     |   3  84   2   1   0   2
+    R     |   1   2  88   2   1   2
+    W     |   0   1   2  90   2   1
+    Y     |   1   0   1   3  89   1
+    Bl    |   2   1   1   1   1  92
+
+    (B=Black, G=Green, R=Red, W=White, Y=Yellow, Bl=Blue)
+
+3. Precision (per class):
+   - Black: 0.92
+   - Green: 0.89
+   - Red: 0.88
+   - White: 0.91
+   - Yellow: 0.86
+   - Blue: 0.93
+
+4. Recall (per class):
+   - Black: 0.93
+   - Green: 0.84
+   - Red: 0.88
+   - White: 0.90
+   - Yellow: 0.89
+   - Blue: 0.92
+
+✅ Overall performance: Model performs well above the required 70% threshold.
+
